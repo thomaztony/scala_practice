@@ -6,7 +6,7 @@ object ListFunctionTabulate {
 	  
 	  println("Squares : " + squares)
 	  
-	  val mul = List.tabulate(4,5)(_*_)
+	  val mul = List.tabulate(2,5)(_*_)
 	  println("Mul : " + mul)
 	}
 }
