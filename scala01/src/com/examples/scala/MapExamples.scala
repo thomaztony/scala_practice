@@ -14,9 +14,7 @@ object MapExamples {
     
     //use the ++ operator or Map.++() to concatenate two or more Maps. It wil remove duplicates while concatenating maps
     
-    val colors2: Map[String, String] = Map("violet" -> "#BNMS",
-    									   "purple" -> "#VSGH",
-    									   "red" -> "#TYUI")
+    val colors2: Map[String, String] = Map("violet" -> "#BNMS", "purple" -> "#VSGH", "red" -> "#TYUI")
     									   
     val colors = colors1 ++ colors2
     println("colors1 ++ colors2 : " + colors)

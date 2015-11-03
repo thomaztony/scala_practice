@@ -18,8 +18,16 @@ object TestSet {
 	  println("Alternate concatenation method - "+ words1 .++(words2))
 	  
 	  //max min element in Set
-	  println("Maximum of nums - "+nums.max)
+	  println("Maximum of nums - "+ nums.max)
 	  println("Minimum of nums - " + nums.min)
+	  
+	  val num1: Set[Int] = Set(1,2,3,4)
+	  val num2: Set[Int] = Set(4,5,6,7)
+	  
+	  //find common elements between the two sets
+	  
+	  println("num1 .&  (num2) : " + num1 .& (num2))
+	  println("num1 .intersect (num2) : "+num1.intersect(num2))
 	  
 	}
 }
